@@ -51,5 +51,10 @@ namespace Game_Caro_2_Nguoi
             btn.BackgroundImage = Image.FromFile("X.jpg");
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
