@@ -37,3 +37,12 @@ C:\Users\us\Desktop\CARO-2-NGUOI\GAME CARO\Game_Caro_2_Nguoi\obj\Debug\Game_Caro
 C:\Users\us\Desktop\CARO-2-NGUOI\GAME CARO\Game_Caro_2_Nguoi\obj\Debug\Game_Caro_2_Nguoi.Form1.resources
 C:\Users\us\Desktop\CARO-2-NGUOI\GAME CARO\Game_Caro_2_Nguoi\obj\Debug\Game_Caro_2_Nguoi.Properties.Resources.resources
 C:\Users\us\Desktop\CARO-2-NGUOI\GAME CARO\Game_Caro_2_Nguoi\obj\Debug\Game_Caro_2_Nguoi.csproj.GenerateResource.Cache
+C:\Users\Thanh Tam\Documents\GitHub\CARO-2-NGUOI\GAME CARO\Game_Caro_2_Nguoi\bin\Debug\Game_Caro_2_Nguoi.exe.config
+C:\Users\Thanh Tam\Documents\GitHub\CARO-2-NGUOI\GAME CARO\Game_Caro_2_Nguoi\obj\Debug\Game_Caro_2_Nguoi.exe
+C:\Users\Thanh Tam\Documents\GitHub\CARO-2-NGUOI\GAME CARO\Game_Caro_2_Nguoi\obj\Debug\Game_Caro_2_Nguoi.pdb
+C:\Users\Thanh Tam\Documents\GitHub\CARO-2-NGUOI\GAME CARO\Game_Caro_2_Nguoi\bin\Debug\Game_Caro_2_Nguoi.exe
+C:\Users\Thanh Tam\Documents\GitHub\CARO-2-NGUOI\GAME CARO\Game_Caro_2_Nguoi\bin\Debug\Game_Caro_2_Nguoi.pdb
+C:\Users\Thanh Tam\Documents\GitHub\CARO-2-NGUOI\GAME CARO\Game_Caro_2_Nguoi\obj\Debug\Game_Caro_2_Nguoi.csprojResolveAssemblyReference.cache
+C:\Users\Thanh Tam\Documents\GitHub\CARO-2-NGUOI\GAME CARO\Game_Caro_2_Nguoi\obj\Debug\Game_Caro_2_Nguoi.Form1.resources
+C:\Users\Thanh Tam\Documents\GitHub\CARO-2-NGUOI\GAME CARO\Game_Caro_2_Nguoi\obj\Debug\Game_Caro_2_Nguoi.Properties.Resources.resources
+C:\Users\Thanh Tam\Documents\GitHub\CARO-2-NGUOI\GAME CARO\Game_Caro_2_Nguoi\obj\Debug\Game_Caro_2_Nguoi.csproj.GenerateResource.Cache
