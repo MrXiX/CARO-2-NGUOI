@@ -23,5 +23,5 @@ namespace GameCaro
 
 			ChessBoard.DrawChessBoard();
 		}
-	}
+    }
 }
