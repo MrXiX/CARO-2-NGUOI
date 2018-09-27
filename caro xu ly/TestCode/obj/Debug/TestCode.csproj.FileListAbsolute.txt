@@ -48,3 +48,13 @@ C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\caro xu ly\TestCode\obj\Debug\TestC
 C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\caro xu ly\TestCode\obj\Debug\TestCode.csproj.CoreCompileInputs.cache
 C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\caro xu ly\TestCode\obj\Debug\TestCode.exe
 C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\caro xu ly\TestCode\obj\Debug\TestCode.pdb
+C:\Users\Thanh Tam\Desktop\CARO-2-NGUOI\caro xu ly\TestCode\bin\Debug\TestCode.exe.config
+C:\Users\Thanh Tam\Desktop\CARO-2-NGUOI\caro xu ly\TestCode\bin\Debug\TestCode.exe
+C:\Users\Thanh Tam\Desktop\CARO-2-NGUOI\caro xu ly\TestCode\bin\Debug\TestCode.pdb
+C:\Users\Thanh Tam\Desktop\CARO-2-NGUOI\caro xu ly\TestCode\obj\Debug\TestCode.csprojAssemblyReference.cache
+C:\Users\Thanh Tam\Desktop\CARO-2-NGUOI\caro xu ly\TestCode\obj\Debug\GameCaro.Form1.resources
+C:\Users\Thanh Tam\Desktop\CARO-2-NGUOI\caro xu ly\TestCode\obj\Debug\TestCode.Properties.Resources.resources
+C:\Users\Thanh Tam\Desktop\CARO-2-NGUOI\caro xu ly\TestCode\obj\Debug\TestCode.csproj.GenerateResource.cache
+C:\Users\Thanh Tam\Desktop\CARO-2-NGUOI\caro xu ly\TestCode\obj\Debug\TestCode.csproj.CoreCompileInputs.cache
+C:\Users\Thanh Tam\Desktop\CARO-2-NGUOI\caro xu ly\TestCode\obj\Debug\TestCode.exe
+C:\Users\Thanh Tam\Desktop\CARO-2-NGUOI\caro xu ly\TestCode\obj\Debug\TestCode.pdb

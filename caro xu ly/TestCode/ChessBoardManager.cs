@@ -15,7 +15,7 @@ namespace GameCaro
 		// Properties
 		private Panel chessBoard;	//Khai báo Panel bàn cờ
 
-		public Panel ChessBoard
+		public Panel ChessBoard	
 		{
 			get { return chessBoard; }
 			set { chessBoard = value; }
@@ -54,6 +54,14 @@ namespace GameCaro
 			set { playerMark = value; }
 		}
 
+		private List<List<Button>> matrix;  //Khai báo ra 2 List lồng nhau, để chứa dữ liệu cho các button cho dễ xử lý (tương tự Như trên Matrix)
+
+		public List<List<Button>> Matrix
+		{
+			get { return matrix; }
+			set { matrix = value; }
+		}
+
 
 
 		////////////////////////////
@@ -78,9 +86,10 @@ namespace GameCaro
 
 		/////////////////////
 
-		#region Methods        
 		public void DrawChessBoard()
 		{
+			Matrix = new List<List<Button>>();      //Khởi tạo 2 list lồng nhau
+
 
 			Button oldButton = new Button()
 			{
@@ -90,6 +99,7 @@ namespace GameCaro
 			//Sử dụng hai vòng lặp lồng nhau để tạo ra bàn cờ, mỗi bàn cờ là một button
 			for (int i = 0; i < Cons.CHESS_BOARD_HEIGHT; i++)	//Đi hết hàng
 			{
+				Matrix.Add(new List<Button>());     //Tạo ra một mảng mới để lưu lại
 
 				for (int j = 0; j < Cons.CHESS_BOARD_WIDTH; j++)	//Đi hết cột
 				{
@@ -98,13 +108,18 @@ namespace GameCaro
 						Width = Cons.CHESS_WIDTH,		//Tạo ra các nút có chiều rộng là cons.CHESS_WIDTH, chiều cao là cons.CHESS_HEIGHT
 						Height = Cons.CHESS_HEIGHT,
 						Location = new Point(oldButton.Location.X + oldButton.Width, oldButton.Location.Y), //Tạo nên button tiếp theo dựa vào oldButton
-						BackgroundImageLayout = ImageLayout.Stretch,	//Định dạng lại ảnh cho vừa với PictureBox
+						BackgroundImageLayout = ImageLayout.Stretch,    //Định dạng lại ảnh cho vừa với PictureBox
+						Tag = i.ToString()          //Lưu lại hàng của button
+
 					};
 
 					btn.Click += btn_Click;		//Tạo event Click
 
 					//Thêm button vào bàn phím
 					ChessBoard.Controls.Add(btn);
+
+					Matrix[i].Add(btn); //Add tất cả button trên một dòng vào
+
 
 					oldButton = btn;	//gán Button mới được tạo thành button cũ để tạo ra các button tiếp theo 
 				}
@@ -128,7 +143,24 @@ namespace GameCaro
 			//Đổi người
 			ChangePlayer();
 
+			if (isEndGame(btn))
+			{
+				EndGame();
+			}
+
 		}
+
+		private void EndGame()
+		{
+			if (CurrentPlayer == 1)
+				CurrentPlayer = 0;
+			else
+				CurrentPlayer = 1;
+
+			MessageBox.Show("The " + player[currentPlayer].Name + " To Win!!!", "Chiến thắng!");
+
+		}
+
 
 
 		private void Mark(Button btn)
@@ -147,7 +179,146 @@ namespace GameCaro
 
 			PlayerMark.Image = Player[CurrentPlayer].Mark;
 		}
-		#endregion
+		private bool isEndGame(Button btn)
+		{
+			return (isEndHorizontal(btn) || isEndVertical(btn) || isEndPrimary(btn) || isEndSub(btn));
+		}
+
+		private Point GetChessPoint(Button btn)     //Lấy tọa độ của button ra
+		{
+			int vertical = Convert.ToInt32(btn.Tag);    //Chuyển Tag về int, lưu lại vị trí hàng của button
+			int horizontal = Matrix[vertical].IndexOf(btn); //lưu lại vị trí cột của button
+
+			Point point = new Point(horizontal, vertical);
+
+			return point;
+		}
+
+		private bool isEndHorizontal(Button btn)
+		{
+			Point point = GetChessPoint(btn);
+
+			int countLeft = 0;
+			for (int i = point.X; i >= 0; i--)
+			{
+				if (Matrix[point.Y][i].BackgroundImage == btn.BackgroundImage)
+				{
+					countLeft++;
+				}
+				else
+					break;
+			}
+
+			int countRight = 0;
+			for (int i = point.X + 1; i < Cons.CHESS_BOARD_WIDTH; i++)
+			{
+				if (Matrix[point.Y][i].BackgroundImage == btn.BackgroundImage)
+				{
+					countRight++;
+				}
+				else
+					break;
+			}
+
+			return countLeft + countRight == 5;
+		}
+		private bool isEndVertical(Button btn)
+		{
+			Point point = GetChessPoint(btn);
+
+			int countTop = 0;
+			for (int i = point.Y; i >= 0; i--)
+			{
+				if (Matrix[i][point.X].BackgroundImage == btn.BackgroundImage)
+				{
+					countTop++;
+				}
+				else
+					break;
+			}
+
+			int countBottom = 0;
+			for (int i = point.Y + 1; i < Cons.CHESS_BOARD_HEIGHT; i++)
+			{
+				if (Matrix[i][point.X].BackgroundImage == btn.BackgroundImage)
+				{
+					countBottom++;
+				}
+				else
+					break;
+			}
+
+			return countTop + countBottom == 5;
+		}
+		private bool isEndPrimary(Button btn)
+		{
+			Point point = GetChessPoint(btn);
+
+			int countTop = 0;
+			for (int i = 0; i <= point.X; i++)
+			{
+				if (point.X - i < 0 || point.Y - i < 0)
+					break;
+
+				if (Matrix[point.Y - i][point.X - i].BackgroundImage == btn.BackgroundImage)
+				{
+					countTop++;
+				}
+				else
+					break;
+			}
+
+			int countBottom = 0;
+			for (int i = 1; i <= Cons.CHESS_BOARD_WIDTH - point.X; i++)
+			{
+				if (point.Y + i >= Cons.CHESS_BOARD_HEIGHT || point.X + i >= Cons.CHESS_BOARD_WIDTH)
+					break;
+
+				if (Matrix[point.Y + i][point.X + i].BackgroundImage == btn.BackgroundImage)
+				{
+					countBottom++;
+				}
+				else
+					break;
+			}
+
+			return countTop + countBottom == 5;
+		}
+		private bool isEndSub(Button btn)
+		{
+			Point point = GetChessPoint(btn);
+
+			int countTop = 0;
+			for (int i = 0; i <= point.X; i++)
+			{
+				if (point.X + i > Cons.CHESS_BOARD_WIDTH || point.Y - i < 0)
+					break;
+
+				if (Matrix[point.Y - i][point.X + i].BackgroundImage == btn.BackgroundImage)
+				{
+					countTop++;
+				}
+				else
+					break;
+			}
+
+			int countBottom = 0;
+			for (int i = 1; i <= Cons.CHESS_BOARD_WIDTH - point.X; i++)
+			{
+				if (point.Y + i >= Cons.CHESS_BOARD_HEIGHT || point.X - i < 0)
+					break;
+
+				if (Matrix[point.Y + i][point.X - i].BackgroundImage == btn.BackgroundImage)
+				{
+					countBottom++;
+				}
+				else
+					break;
+			}
+
+			return countTop + countBottom == 5;
+		}
+
 
 	}
 }
