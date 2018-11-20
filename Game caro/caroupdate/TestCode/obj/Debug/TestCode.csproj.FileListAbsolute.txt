@@ -1,0 +1,56 @@
+C:\Users\mrtht\Desktop\TEST\caro\TestCode\bin\Debug\TestCode.exe.config
+C:\Users\mrtht\Desktop\TEST\caro\TestCode\bin\Debug\TestCode.exe
+C:\Users\mrtht\Desktop\TEST\caro\TestCode\bin\Debug\TestCode.pdb
+C:\Users\mrtht\Desktop\TEST\caro\TestCode\obj\Debug\TestCode.csprojAssemblyReference.cache
+C:\Users\mrtht\Desktop\TEST\caro\TestCode\obj\Debug\GameCaro.Form1.resources
+C:\Users\mrtht\Desktop\TEST\caro\TestCode\obj\Debug\GameCaro.FormNhapthongTin.resources
+C:\Users\mrtht\Desktop\TEST\caro\TestCode\obj\Debug\GameCaro.FormThoat.resources
+C:\Users\mrtht\Desktop\TEST\caro\TestCode\obj\Debug\TestCode.Properties.Resources.resources
+C:\Users\mrtht\Desktop\TEST\caro\TestCode\obj\Debug\TestCode.csproj.GenerateResource.cache
+C:\Users\mrtht\Desktop\TEST\caro\TestCode\obj\Debug\TestCode.csproj.CoreCompileInputs.cache
+C:\Users\mrtht\Desktop\TEST\caro\TestCode\obj\Debug\TestCode.exe
+C:\Users\mrtht\Desktop\TEST\caro\TestCode\obj\Debug\TestCode.pdb
+C:\Users\mrtht\Desktop\TEST\caro\TestCode\obj\Debug\GameCaro.FormHuongDan.resources
+C:\Users\mrtht\Desktop\TEST\caro\TestCode\obj\Debug\GameCaro.FormChienThang.resources
+C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\bin\Debug\TestCode.exe.config
+C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\bin\Debug\TestCode.exe
+C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\bin\Debug\TestCode.pdb
+C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\obj\Debug\TestCode.csprojAssemblyReference.cache
+C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\obj\Debug\GameCaro.Form1.resources
+C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\obj\Debug\GameCaro.FormChienThang.resources
+C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\obj\Debug\GameCaro.FormHuongDan.resources
+C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\obj\Debug\GameCaro.FormNhapthongTin.resources
+C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\obj\Debug\GameCaro.FormThoat.resources
+C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\obj\Debug\TestCode.Properties.Resources.resources
+C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\obj\Debug\TestCode.csproj.GenerateResource.cache
+C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\obj\Debug\TestCode.csproj.CoreCompileInputs.cache
+C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\obj\Debug\TestCode.exe
+C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\obj\Debug\TestCode.pdb
+E:\đồ án caro\caroupdate\caroupdate\TestCode\bin\Debug\TestCode.exe.config
+E:\đồ án caro\caroupdate\caroupdate\TestCode\bin\Debug\TestCode.exe
+E:\đồ án caro\caroupdate\caroupdate\TestCode\bin\Debug\TestCode.pdb
+E:\đồ án caro\caroupdate\caroupdate\TestCode\obj\Debug\TestCode.csprojAssemblyReference.cache
+E:\đồ án caro\caroupdate\caroupdate\TestCode\obj\Debug\GameCaro.Form1.resources
+E:\đồ án caro\caroupdate\caroupdate\TestCode\obj\Debug\GameCaro.FormChienThang.resources
+E:\đồ án caro\caroupdate\caroupdate\TestCode\obj\Debug\GameCaro.FormHuongDan.resources
+E:\đồ án caro\caroupdate\caroupdate\TestCode\obj\Debug\GameCaro.FormNhapthongTin.resources
+E:\đồ án caro\caroupdate\caroupdate\TestCode\obj\Debug\GameCaro.FormThoat.resources
+E:\đồ án caro\caroupdate\caroupdate\TestCode\obj\Debug\TestCode.Properties.Resources.resources
+E:\đồ án caro\caroupdate\caroupdate\TestCode\obj\Debug\TestCode.csproj.GenerateResource.cache
+E:\đồ án caro\caroupdate\caroupdate\TestCode\obj\Debug\TestCode.csproj.CoreCompileInputs.cache
+E:\đồ án caro\caroupdate\caroupdate\TestCode\obj\Debug\TestCode.exe
+E:\đồ án caro\caroupdate\caroupdate\TestCode\obj\Debug\TestCode.pdb
+C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\Game caro\caroupdate\TestCode\bin\Debug\TestCode.exe.config
+C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\Game caro\caroupdate\TestCode\bin\Debug\TestCode.exe
+C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\Game caro\caroupdate\TestCode\bin\Debug\TestCode.pdb
+C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\Game caro\caroupdate\TestCode\obj\Debug\TestCode.csprojAssemblyReference.cache
+C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\Game caro\caroupdate\TestCode\obj\Debug\GameCaro.Form1.resources
+C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\Game caro\caroupdate\TestCode\obj\Debug\GameCaro.FormChienThang.resources
+C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\Game caro\caroupdate\TestCode\obj\Debug\GameCaro.FormHuongDan.resources
+C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\Game caro\caroupdate\TestCode\obj\Debug\GameCaro.FormNhapthongTin.resources
+C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\Game caro\caroupdate\TestCode\obj\Debug\GameCaro.FormThoat.resources
+C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\Game caro\caroupdate\TestCode\obj\Debug\TestCode.Properties.Resources.resources
+C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\Game caro\caroupdate\TestCode\obj\Debug\TestCode.csproj.GenerateResource.cache
+C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\Game caro\caroupdate\TestCode\obj\Debug\TestCode.csproj.CoreCompileInputs.cache
+C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\Game caro\caroupdate\TestCode\obj\Debug\TestCode.exe
+C:\Users\kieud\Documents\GitHub\CARO-2-NGUOI\Game caro\caroupdate\TestCode\obj\Debug\TestCode.pdb
