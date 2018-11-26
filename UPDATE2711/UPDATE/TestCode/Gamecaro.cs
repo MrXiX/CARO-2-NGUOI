@@ -46,7 +46,7 @@ namespace GameCaro
             btnQueue.Text = "Mô phỏng lại";
             Tmthoigian.Enabled = true;
             XuLyBanCo.time = 30;
-            btntieptuc.Enabled = false;
+            btntieptuc.Enabled = true;
         }
 
         private string nhac = "Music ON";
@@ -180,9 +180,16 @@ namespace GameCaro
             BanCo.Xoabanco();
             string line = "";
             int x, y;
-            StreamReader read = new StreamReader("save.txt");
-            if (read == null)
+            StreamReader read;
+            try
+            {
+                read = new StreamReader("save.txt"); 
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Không có dữ liệu!", "Thông báo!");
                 return;
+            }
             while (line != null)
             {
                 line = read.ReadLine();

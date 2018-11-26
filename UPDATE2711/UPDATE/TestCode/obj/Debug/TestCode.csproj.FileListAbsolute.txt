@@ -26,3 +26,17 @@ C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\obj\Debug\TestCode.csproj.G
 C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\obj\Debug\TestCode.csproj.CoreCompileInputs.cache
 C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\obj\Debug\TestCode.exe
 C:\Users\mrtht\Desktop\TEST\caro - Copy (2)\TestCode\obj\Debug\TestCode.pdb
+C:\Users\mrtht\Documents\GitHub\CARO-2-NGUOI\UPDATE2711\UPDATE\TestCode\bin\Debug\TestCode.exe.config
+C:\Users\mrtht\Documents\GitHub\CARO-2-NGUOI\UPDATE2711\UPDATE\TestCode\bin\Debug\TestCode.exe
+C:\Users\mrtht\Documents\GitHub\CARO-2-NGUOI\UPDATE2711\UPDATE\TestCode\bin\Debug\TestCode.pdb
+C:\Users\mrtht\Documents\GitHub\CARO-2-NGUOI\UPDATE2711\UPDATE\TestCode\obj\Debug\TestCode.csprojAssemblyReference.cache
+C:\Users\mrtht\Documents\GitHub\CARO-2-NGUOI\UPDATE2711\UPDATE\TestCode\obj\Debug\GameCaro.Form1.resources
+C:\Users\mrtht\Documents\GitHub\CARO-2-NGUOI\UPDATE2711\UPDATE\TestCode\obj\Debug\GameCaro.FormChienThang.resources
+C:\Users\mrtht\Documents\GitHub\CARO-2-NGUOI\UPDATE2711\UPDATE\TestCode\obj\Debug\GameCaro.FormHuongDan.resources
+C:\Users\mrtht\Documents\GitHub\CARO-2-NGUOI\UPDATE2711\UPDATE\TestCode\obj\Debug\GameCaro.FormNhapthongTin.resources
+C:\Users\mrtht\Documents\GitHub\CARO-2-NGUOI\UPDATE2711\UPDATE\TestCode\obj\Debug\GameCaro.FormThoat.resources
+C:\Users\mrtht\Documents\GitHub\CARO-2-NGUOI\UPDATE2711\UPDATE\TestCode\obj\Debug\TestCode.Properties.Resources.resources
+C:\Users\mrtht\Documents\GitHub\CARO-2-NGUOI\UPDATE2711\UPDATE\TestCode\obj\Debug\TestCode.csproj.GenerateResource.cache
+C:\Users\mrtht\Documents\GitHub\CARO-2-NGUOI\UPDATE2711\UPDATE\TestCode\obj\Debug\TestCode.csproj.CoreCompileInputs.cache
+C:\Users\mrtht\Documents\GitHub\CARO-2-NGUOI\UPDATE2711\UPDATE\TestCode\obj\Debug\TestCode.exe
+C:\Users\mrtht\Documents\GitHub\CARO-2-NGUOI\UPDATE2711\UPDATE\TestCode\obj\Debug\TestCode.pdb
