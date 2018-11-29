@@ -149,6 +149,10 @@ namespace GameCaro
         {
             XuLyBanCo.time--;
             this.tbxthoigian.Text = XuLyBanCo.time.ToString();
+
+            if (XuLyBanCo.win == 1)
+                Tmthoigian.Enabled = false;
+
             if (XuLyBanCo.time == 0)
             {
                 Tmthoigian.Enabled = false;
