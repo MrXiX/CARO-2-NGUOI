@@ -76,6 +76,7 @@ namespace GameCaro
 
         public void btnUndo_Click(object sender, EventArgs e)
         {
+            XuLyBanCo.time = 30;
             if (BanCo.STACK.Count == 0)
                 return;
             if (XuLyBanCo.win == 0)
