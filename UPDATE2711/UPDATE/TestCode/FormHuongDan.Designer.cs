@@ -34,10 +34,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::TestCode.Properties.Resources.luat_choi;
+            this.pictureBox1.Image = global::TestCode.Properties.Resources._3;
             this.pictureBox1.Location = new System.Drawing.Point(2, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(449, 479);
+            this.pictureBox1.Size = new System.Drawing.Size(320, 343);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -47,7 +47,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(454, 484);
+            this.ClientSize = new System.Drawing.Size(321, 344);
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormHuongDan";
             this.Text = "FormHuongDan";
