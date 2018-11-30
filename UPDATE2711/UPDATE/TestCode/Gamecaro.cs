@@ -87,6 +87,7 @@ namespace GameCaro
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.ActiveControl = btnnewgame;
             XuLyBanCo.Chan = 0;
             XuLyBanCo.time = 30;
         }
@@ -169,12 +170,22 @@ namespace GameCaro
         {
             BanCo.LuuVanCo();
             StreamWriter write = new StreamWriter("save.txt",false);
-            while(BanCo.QUEUE.Count != 0)
+            write.WriteLine(XuLyBanCo.N1);
+            write.WriteLine(XuLyBanCo.N2);
+            write.WriteLine(XuLyBanCo.nguoichoihientai);
+            write.WriteLine(BanCo.QUEUE.Count());
+
+            Point p0 = new Point(0, 0);
+            int kt = 0;
+            while (BanCo.QUEUE.Count != 0)
             {
                 Point P = BanCo.QUEUE.Dequeue();
+                if (p0 == P)
+                    kt = 1;
                 write.WriteLine(P.X);
                 write.WriteLine(P.Y);
             }
+            write.WriteLine(kt);
             write.Close();
             MessageBox.Show("Đã lưu ván cờ!", "Thông báo!");
             Application.Exit();
@@ -183,7 +194,6 @@ namespace GameCaro
         private void btntieptuc_Click(object sender, EventArgs e)
         {
             BanCo.Xoabanco();
-            string line = "";
             int x, y;
             StreamReader read;
             try
@@ -195,8 +205,19 @@ namespace GameCaro
                 MessageBox.Show("Không có dữ liệu!", "Thông báo!");
                 return;
             }
-            while (line != null)
+
+            XuLyBanCo.N1 = read.ReadLine();
+            XuLyBanCo.N2 = read.ReadLine();
+            XuLyBanCo.nguoichoihientai = Convert.ToInt32(read.ReadLine());
+            int sl = Convert.ToInt32(read.ReadLine());
+            BanCo.UpdateName();
+            if (XuLyBanCo.nguoichoihientai == 1)
+                XuLyBanCo.nguoichoihientai = 0;
+            string line ;
+            int i = 0;
+            while (i != sl)
             {
+                i++;
                 line = read.ReadLine();
                 x = Convert.ToInt32(line);
                 line = read.ReadLine();
@@ -204,13 +225,20 @@ namespace GameCaro
 
                 Point P = new Point(x, y);
                 BanCo.QUEUE.Enqueue(P);
+                BanCo.STACK.Push(P);
             }
-
-            while(BanCo.QUEUE.Count!=1)
+            int kt = Convert.ToInt32(read.ReadLine());
+            if (kt == 1)
+                BanCo.QUEUE.Dequeue();
+            try
             {
-                BanCo.MoPhong();
+                while (BanCo.QUEUE.Count() != 0)
+                {
+                    BanCo.MoPhong();
+                }
             }
-
+            catch (Exception)
+            { };
             btntieptuc.Enabled = false;
         }
     }

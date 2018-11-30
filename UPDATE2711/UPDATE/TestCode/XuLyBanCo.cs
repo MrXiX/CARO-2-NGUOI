@@ -15,9 +15,9 @@ namespace GameCaro
 		// Properties
 		public Panel banco;	//Khai báo Panel bàn cờ
 
-        public Stack<Point> STACK;      //Ngăn xếp lưu trữ các vị trí đã đánh để Undo
+        public MyTack<Point> STACK;      //Ngăn xếp lưu trữ các vị trí đã đánh để Undo
 
-        public Stack<Point> Stack2;     //dùng để clear bàn cờ
+        public MyTack<Point> Stack2;     //dùng để clear bàn cờ
 
         public Queue<Point> QUEUE;      //Hàng đợi lưu trữ lại các vị trí đã đánh để mô phỏng lại ván cờ
 
@@ -97,11 +97,11 @@ namespace GameCaro
 			};
 
             //Khởi Tạo stack, queue
-            STACK = new Stack<Point>();
+            STACK = new MyTack<Point>();
 
             QUEUE = new Queue<Point>();
 
-            Stack2 = new Stack<Point>();
+            Stack2 = new MyTack<Point>();
 
             //Lấy thông tin tên người chơi từ formNhapThongTin
             FormNhapthongTin f = new FormNhapthongTin();
@@ -265,6 +265,12 @@ namespace GameCaro
             //Đặt lại Queue, Stack
             QUEUE.Clear();
             STACK.Clear();
+        }
+
+        public void UpdateName()
+        {
+            this.nguoichoi[0].Name = N1;
+            this.nguoichoi[1].Name = N2;
         }
 
         //Clear bàn cờ
