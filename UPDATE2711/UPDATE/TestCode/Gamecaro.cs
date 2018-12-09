@@ -175,6 +175,7 @@ namespace GameCaro
             write.WriteLine(XuLyBanCo.nguoichoihientai);
             write.WriteLine(BanCo.QUEUE.Count());
 
+
             Point p0 = new Point(0, 0);
             int kt = 0;
             while (BanCo.QUEUE.Count != 0)
@@ -187,6 +188,8 @@ namespace GameCaro
             }
             write.WriteLine(kt);
             write.Close();
+            Tmthoigian.Enabled = false;
+
             MessageBox.Show("Đã lưu ván cờ!", "Thông báo!");
             Application.Exit();
         }
